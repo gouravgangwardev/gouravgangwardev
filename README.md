@@ -1,7 +1,7 @@
-<!-- HEADER STRIP -->
+<!-- FLOWING OLIVE HEADER -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1C1F1D,100:2F3A34&height=140&section=header&text=Gourav%20Gangwar&fontSize=42&fontColor=EAE7DC&fontAlignY=55"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1412,50:1F2A24,100:3A5A40&height=200&section=header&text=Gourav%20Gangwar&fontSize=44&fontColor=E9EDC9&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20AI%20%7C%20Real-Time%20Systems&descAlignY=60&descSize=16"/>
 </p>
 
 <p align="center">
@@ -11,75 +11,88 @@
 
 ---
 
+<!-- DEPTH DIVIDER -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F2A24,100:0F1412&height=3"/>
+</p>
+
+---
+
 ## <span style="color:#A3B18A;">Overview</span>
 
 <span style="color:#DAD7CD;">
-I build production systems where latency, scale, and reliability are constraints—not goals.
+I build systems where latency, scale, and reliability operate under constraint.
 </span>
 
-<span style="color:#B7B7A4;">
-Distributed backends · Real-time systems · AI pipelines · Hardware → Cloud
+<span style="color:#588157;">
+Distributed backends · Real-time pipelines · AI systems · Hardware → Cloud
 </span>
 
 ---
 
 ## <span style="color:#A3B18A;">Systems</span>
 
-### <span style="color:#EAE7DC;">Bondra</span>
+### <span style="color:#E9EDC9;">Bondra</span>
 
-<span style="color:#6B705C;"><i>Real-Time Communication Infrastructure</i></span>
+<span style="color:#588157;"><i>Real-Time Infrastructure</i></span>
 
-* <span style="color:#DAD7CD;">Redis sorted-set matchmaking *(O(log N))* under concurrency</span>
-* <span style="color:#DAD7CD;">Stateless Socket.IO via Redis Pub/Sub *(no session affinity)*</span>
-* <span style="color:#DAD7CD;">Kubernetes scaling validated under sustained load</span>
+* <span style="color:#DAD7CD;">Redis sorted-set matchmaking *(O(log N))*</span>
+* <span style="color:#DAD7CD;">Stateless Socket.IO via Pub/Sub</span>
+* <span style="color:#DAD7CD;">Kubernetes scaling under sustained load</span>
 
 ---
 
-### <span style="color:#EAE7DC;">Scam Sense AI</span>
+### <span style="color:#E9EDC9;">Scam Sense AI</span>
 
-<span style="color:#6B705C;"><i>Multi-Modal Fraud Detection</i></span>
+<span style="color:#588157;"><i>Fraud Detection System</i></span>
 
 * <span style="color:#DAD7CD;">Dual ML models → <b>90%+ accuracy</b></span>
-* <span style="color:#DAD7CD;">OCR → NLP pipeline for multi-modal input</span>
-* <span style="color:#DAD7CD;">Layered detection with fallback logic</span>
+* <span style="color:#DAD7CD;">OCR → NLP multi-modal pipeline</span>
+* <span style="color:#DAD7CD;">Layered detection architecture</span>
 
 ---
 
-### <span style="color:#EAE7DC;">Smart IoT Monitor</span>
+### <span style="color:#E9EDC9;">Smart IoT Monitor</span>
 
-<span style="color:#6B705C;"><i>Sensor Data Infrastructure</i></span>
+<span style="color:#588157;"><i>Sensor Pipeline</i></span>
 
-* <span style="color:#DAD7CD;">ESP32 ingestion → structured cloud pipeline</span>
-* <span style="color:#DAD7CD;">MongoDB time-series + indexed queries</span>
-* <span style="color:#DAD7CD;"><b>Sub-500ms</b> real-time propagation + alerting</span>
+* <span style="color:#DAD7CD;">ESP32 → cloud ingestion flow</span>
+* <span style="color:#DAD7CD;">MongoDB time-series indexing</span>
+* <span style="color:#DAD7CD;"><b>Sub-500ms</b> real-time updates</span>
 
 ---
 
-### <span style="color:#EAE7DC;">Neural Holography Engine</span>
+### <span style="color:#E9EDC9;">Neural Holography</span>
 
-<span style="color:#6B705C;"><i>AI Reconstruction System</i></span>
+<span style="color:#588157;"><i>AI 3D System</i></span>
 
-* <span style="color:#DAD7CD;">OpenCV → NeRF pipeline with low-latency flow</span>
-* <span style="color:#DAD7CD;">Model benchmarking across accuracy/performance</span>
-* <span style="color:#DAD7CD;">Gesture-controlled real-time interaction</span>
+* <span style="color:#DAD7CD;">OpenCV → NeRF pipeline</span>
+* <span style="color:#DAD7CD;">Model benchmarking</span>
+* <span style="color:#DAD7CD;">Gesture-based interaction</span>
+
+---
+
+<!-- FLOW DIVIDER -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F1412,50:1F2A24,100:3A5A40&height=60&section=footer"/>
+</p>
 
 ---
 
 ## <span style="color:#A3B18A;">Stack</span>
 
-<span style="color:#DAD7CD;">
-Python · TypeScript · Node.js · Redis · MongoDB · PostgreSQL  
-Docker · Kubernetes · AWS · GCP · Nginx  
-PyTorch · OpenCV · Scikit-learn · NeRF  
-ESP32 · MQTT · I2C · UART  
-</span>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,nodejs,redis,mongodb,postgres,docker,kubernetes,aws,gcp,pytorch,opencv&theme=dark"/>
+</p>
 
 ---
 
 ## <span style="color:#A3B18A;">Focus</span>
 
 <span style="color:#B7B7A4;">
-Distributed systems · Real-time synchronization · AI in production · Performance engineering
+Distributed systems · Real-time sync · AI pipelines · performance engineering
 </span>
 
 ---
@@ -95,11 +108,8 @@ GitHub → https://github.com/gouravgangwardev
 ---
 
 <p align="center">
-  <span style="color:#6B705C;">Precision · Systems · Execution</span>
+  <span style="color:#588157;">flow · depth · systems</span>
 </p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2F3A34,100:1C1F1D&height=80&section=footer"/>
 </p>
   </a>
 </p>
