@@ -11,7 +11,7 @@
 
 ---
 
-## ⚡ Impact
+##  Impact
 
 * Built Redis-based matchmaking engine with O(log N) complexity for real-time pairing
 * Scaled Socket.IO across distributed nodes using Redis Pub/Sub (no sticky sessions)
@@ -21,7 +21,7 @@
 
 ---
 
-## 📊 Live Activity
+## Live Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gouravgangwardev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170"/>
@@ -34,7 +34,7 @@
 
 ---
 
-## 🧠 Engineering Focus
+##  Engineering Focus
 
 * Distributed Backend → matchmaking, pub/sub, fault tolerance
 * AI Pipelines → inference, OCR, multi-model systems
@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 Projects
+##  Projects
 
 ### Bondra — Real-Time Video Chat
 
@@ -85,7 +85,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,react,redis,mongodb,postgres,docker,kubernetes,aws,gcp,opencv,pytorch" />
@@ -93,7 +93,7 @@
 
 ---
 
-## 📬 Connect
+## Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/gouravgangwardev">
