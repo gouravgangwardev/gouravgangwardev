@@ -1,106 +1,106 @@
-<h1 align="center">Gourav Gangwar</h1>
+<!-- HEADER STRIP -->
 
 <p align="center">
-  <b>Backend & Systems Engineer</b><br/>
-  Distributed Systems · AI Inference · Real-Time Infrastructure
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1C1F1D,100:2F3A34&height=140&section=header&text=Gourav%20Gangwar&fontSize=42&fontColor=EAE7DC&fontAlignY=55"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=I+build+high-performance+distributed+systems;Real-time+infrastructure+%2B+AI+pipelines;From+embedded+hardware+to+cloud-scale+systems;Performance%2C+scale%2C+and+execution+define+my+work" />
-</p>
-
----
-
-##  Impact
-
-* Built Redis-based matchmaking engine with O(log N) complexity for real-time pairing
-* Scaled Socket.IO across distributed nodes using Redis Pub/Sub (no sticky sessions)
-* Engineered AI fraud detection system achieving 90%+ accuracy across 15K+ samples
-* Designed ESP32 → cloud IoT pipeline with sub-500ms real-time updates
-* Developed AI 3D reconstruction system with <36ms processing latency
-
----
-
-## Live Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gouravgangwardev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouravgangwardev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gouravgangwardev&theme=tokyonight&hide_border=true&background=0D1117" />
+  <span style="color:#A3B18A;"><b>Backend & Systems Engineer</b></span><br/>
+  <span style="color:#6B705C;">Distributed Systems · AI Inference · Real-Time Infrastructure</span>
 </p>
 
 ---
 
-##  Engineering Focus
+## <span style="color:#A3B18A;">Overview</span>
 
-* Distributed Backend → matchmaking, pub/sub, fault tolerance
-* AI Pipelines → inference, OCR, multi-model systems
-* Real-Time Systems → WebSockets, streaming, low-latency updates
-* Hardware → Cloud → ESP32, MQTT, ingestion pipelines
+<span style="color:#DAD7CD;">
+I build production systems where latency, scale, and reliability are constraints—not goals.
+</span>
 
----
-
-##  Projects
-
-### Bondra — Real-Time Video Chat
-
-* Designed Redis sorted-set matchmaking (ZADD/ZPOPMIN) enabling O(log N) real-time pairing
-* Built stateless Socket.IO architecture with Redis Pub/Sub across distributed nodes
-* Scaled via Kubernetes HPA with load-tested performance under sustained traffic
-
-**Tech:** TypeScript · Node.js · Redis · PostgreSQL · WebRTC · Kubernetes
+<span style="color:#B7B7A4;">
+Distributed backends · Real-time systems · AI pipelines · Hardware → Cloud
+</span>
 
 ---
 
-### Scam Sense AI — Fraud Detection
+## <span style="color:#A3B18A;">Systems</span>
 
-* Trained dual ML models (TF-IDF + Naive Bayes, Random Forest) achieving 90%+ accuracy
-* Built OCR → NLP pipeline with multi-layer phishing detection
-* Engineered secure API with rate limiting and fallback detection logic
+### <span style="color:#EAE7DC;">Bondra</span>
 
-**Tech:** Python · Flask · Scikit-learn · OCR
+<span style="color:#6B705C;"><i>Real-Time Communication Infrastructure</i></span>
 
----
-
-### Smart IoT Monitor
-
-* Engineered ESP32 firmware for 6-sensor data collection and cloud ingestion
-* Designed MongoDB time-series schema with TTL + indexed queries
-* Delivered sub-500ms real-time updates with automated alerting
-
-**Tech:** Node.js · MongoDB · ESP32 · Firebase · AWS
+* <span style="color:#DAD7CD;">Redis sorted-set matchmaking *(O(log N))* under concurrency</span>
+* <span style="color:#DAD7CD;">Stateless Socket.IO via Redis Pub/Sub *(no session affinity)*</span>
+* <span style="color:#DAD7CD;">Kubernetes scaling validated under sustained load</span>
 
 ---
 
-### Neural Holography Engine
+### <span style="color:#EAE7DC;">Scam Sense AI</span>
 
-* Built 7-stage AI pipeline (OpenCV → NeRF → Three.js) with <36ms latency
-* Benchmarked multiple 3D reconstruction models (up to 98% accuracy)
-* Integrated real-time gesture control for interactive 3D output
+<span style="color:#6B705C;"><i>Multi-Modal Fraud Detection</i></span>
 
-**Tech:** PyTorch · OpenCV · NeRF · Three.js
+* <span style="color:#DAD7CD;">Dual ML models → <b>90%+ accuracy</b></span>
+* <span style="color:#DAD7CD;">OCR → NLP pipeline for multi-modal input</span>
+* <span style="color:#DAD7CD;">Layered detection with fallback logic</span>
 
 ---
 
-##  Tech Stack
+### <span style="color:#EAE7DC;">Smart IoT Monitor</span>
+
+<span style="color:#6B705C;"><i>Sensor Data Infrastructure</i></span>
+
+* <span style="color:#DAD7CD;">ESP32 ingestion → structured cloud pipeline</span>
+* <span style="color:#DAD7CD;">MongoDB time-series + indexed queries</span>
+* <span style="color:#DAD7CD;"><b>Sub-500ms</b> real-time propagation + alerting</span>
+
+---
+
+### <span style="color:#EAE7DC;">Neural Holography Engine</span>
+
+<span style="color:#6B705C;"><i>AI Reconstruction System</i></span>
+
+* <span style="color:#DAD7CD;">OpenCV → NeRF pipeline with low-latency flow</span>
+* <span style="color:#DAD7CD;">Model benchmarking across accuracy/performance</span>
+* <span style="color:#DAD7CD;">Gesture-controlled real-time interaction</span>
+
+---
+
+## <span style="color:#A3B18A;">Stack</span>
+
+<span style="color:#DAD7CD;">
+Python · TypeScript · Node.js · Redis · MongoDB · PostgreSQL  
+Docker · Kubernetes · AWS · GCP · Nginx  
+PyTorch · OpenCV · Scikit-learn · NeRF  
+ESP32 · MQTT · I2C · UART  
+</span>
+
+---
+
+## <span style="color:#A3B18A;">Focus</span>
+
+<span style="color:#B7B7A4;">
+Distributed systems · Real-time synchronization · AI in production · Performance engineering
+</span>
+
+---
+
+## <span style="color:#A3B18A;">Contact</span>
+
+<span style="color:#DAD7CD;">
+LinkedIn → https://linkedin.com/in/gouravgangwardev  
+Email → gouravgangwardev@gmail.com  
+GitHub → https://github.com/gouravgangwardev  
+</span>
+
+---
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,react,redis,mongodb,postgres,docker,kubernetes,aws,gcp,opencv,pytorch" />
+  <span style="color:#6B705C;">Precision · Systems · Execution</span>
 </p>
 
----
-
-## Connect
-
 <p align="center">
-  <a href="https://linkedin.com/in/gouravgangwardev">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:gouravgangwardev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2F3A34,100:1C1F1D&height=80&section=footer"/>
+</p>
   </a>
 </p>
 
