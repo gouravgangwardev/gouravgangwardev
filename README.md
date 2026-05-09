@@ -1,6 +1,7 @@
+markdown
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060A07,25:0C1610,50:122318,75:1A3325,100:243D2F&height=280&section=header&text=GOURAV%20GANGWAR&fontSize=58&fontColor=B8CFAA&animation=fadeIn&fontAlignY=44&desc=Backend%20%E2%80%A2%20AI%20Systems%20%E2%80%A2%20Real-Time%20Infrastructure&descAlignY=62&descSize=16&fontAlign=50&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070908,20:121510,45:1E241C,70:3A4332,100:4F5A43&height=290&section=header&text=GOURAV%20GANGWAR&fontSize=56&fontColor=B59A6A&animation=fadeIn&fontAlignY=42&desc=Distributed%20Systems%20•%20AI%20Infrastructure%20•%20Real-Time%20Architectures&descAlignY=61&descSize=16&fontAlign=50&descAlign=50" width="100%"/>
 
 </div>
 
@@ -8,9 +9,17 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/gouravgangwardev"><img src="https://img.shields.io/badge/%E2%86%97%20LinkedIn-060A07?style=for-the-badge&logo=linkedin&logoColor=B8CFAA&labelColor=0C1610"/></a>&nbsp;
-<a href="mailto:gouravgangwardev@gmail.com"><img src="https://img.shields.io/badge/%E2%86%97%20Email-060A07?style=for-the-badge&logo=gmail&logoColor=B8CFAA&labelColor=0C1610"/></a>&nbsp;
-<a href="https://github.com/gouravgangwardev"><img src="https://img.shields.io/badge/%E2%86%97%20GitHub-060A07?style=for-the-badge&logo=github&logoColor=B8CFAA&labelColor=0C1610"/></a>
+<a href="https://linkedin.com/in/gouravgangwardev">
+<img src="https://img.shields.io/badge/LINKEDIN-121510?style=for-the-badge&logo=linkedin&logoColor=B59A6A&labelColor=070908"/>
+</a>
+&nbsp;
+<a href="mailto:gouravgangwardev@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-121510?style=for-the-badge&logo=gmail&logoColor=B59A6A&labelColor=070908"/>
+</a>
+&nbsp;
+<a href="https://github.com/gouravgangwardev">
+<img src="https://img.shields.io/badge/GITHUB-121510?style=for-the-badge&logo=github&logoColor=B59A6A&labelColor=070908"/>
+</a>
 
 </div>
 
@@ -18,14 +27,15 @@
 
 <div align="center">
 
-```
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓                                                              ▓
-▓    Building systems where latency and scale collide.        ▓
-▓    Distributed backends · AI inference · Real-time sync     ▓
-▓                                                              ▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  Designing systems that survive scale, latency, failure, and hostile load.  │
+│                                                                              │
+│  Distributed Infrastructure • AI Inference • Real-Time Synchronization       │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+````
 
 </div>
 
@@ -33,204 +43,374 @@
 
 ---
 
-<br/>
+# ❯ SYSTEM PROFILE
+````
+ENGINEER_PROFILE:
+  role: "Backend & Systems Engineer"
 
-## ❯ About
+  specialization:
+    - Distributed Systems
+    - Real-Time Infrastructure
+    - AI Inference Pipelines
+    - Defence Simulation Systems
+    - Hardware-to-Cloud Architectures
 
-I'm a **Backend & Systems Engineer** who thrives under constraint — tight latency budgets, hostile failure modes, and scale that doesn't forgive sloppiness. My work sits at the seam between **distributed infrastructure**, **AI inference pipelines**, and **hardware-to-cloud systems**.
+  operating_principles:
+    - "Latency is engineered, not tolerated."
+    - "Reliability emerges from system design."
+    - "Scale exposes weak architecture."
+    - "Execution matters more than abstraction."
 
-I don't just write code. I reason about systems — where they'll break, where they'll bottleneck, and how they should recover.
-
+  current_focus:
+    - AI-driven simulation systems
+    - Neural holography research
+    - Event-driven architectures
+    - Infrastructure resilience
+    - Real-time synchronization pipelines
+    - Multi-modal AI systems
+    - Performance engineering
+````
 <br/>
 
 ---
 
-<br/>
-
-## ❯ Systems
+# ❯ CORE SYSTEMS
 
 <br/>
 
-### ⬡ &nbsp;`BONDRA` &mdash; Real-Time Matchmaking Infrastructure
+## ⬡ BONDRA — Real-Time Matchmaking Infrastructure
 
 <table>
 <tr>
 <td width="50%">
 
-**Problem**
+### Architectural Problem
 
-Stateful matchmaking servers don't scale. Session stickiness kills horizontal growth. Load spikes during peak hours collapse naive architectures.
+Stateful matchmaking collapses horizontal scaling.
+Session affinity creates infrastructure bottlenecks under peak concurrency.
+Naive synchronization models introduce queue fragmentation and latency spikes.
 
 </td>
 <td width="50%">
 
-**Solution**
+### Systems Solution
 
-Redis sorted-set queues with O(log N) insertion. Pub/Sub decouples Socket.IO nodes — fully stateless, infinitely horizontal. Kubernetes handles burst scaling automatically.
+Redis sorted-set queues with stateless Socket.IO nodes.
+Pub/Sub architecture externalizes synchronization state.
+Kubernetes HPA manages sustained burst traffic automatically.
 
 </td>
 </tr>
 </table>
 
-```
-CLIENT ──► SOCKET.IO NODE (stateless) ──► REDIS PUB/SUB
-                                               │
-              ┌────────────────────────────────┘
+```text
+CLIENT
+   │
+   ▼
+SOCKET.IO EDGE NODE (STATELESS)
+   │
+   ▼
+REDIS PUB/SUB LAYER
+   │
+   ├──► MATCH QUEUE (SORTED SET)
+   │
+   └──► PAIRING ENGINE
+              │
               ▼
-     SORTED-SET QUEUE  ──►  MATCHED PAIR EMIT  ──►  CLIENT
-     O(log N) insert
+        MATCH EVENT EMIT
 ```
 
-| Metric | Implementation |
-|--------|----------------|
-| Queue complexity | `O(log N)` via Redis sorted sets |
-| Session model | Stateless — all state externalized |
-| Transport | Socket.IO over Pub/Sub |
-| Scaling | Kubernetes HPA under sustained load |
+| Infrastructure Layer | Decision                     |
+| -------------------- | ---------------------------- |
+| Queue Model          | Redis Sorted Sets            |
+| Complexity           | O(log N) insertions          |
+| Synchronization      | Pub/Sub event propagation    |
+| Scaling Model        | Stateless horizontal scaling |
+| Deployment           | Kubernetes HPA               |
+| Transport            | Socket.IO                    |
 
-<br/><br/>
+### Repository
 
----
-
-### ⬡ &nbsp;`SCAM SENSE AI` &mdash; Fraud Detection System
-
-<table>
-<tr>
-<td width="50%">
-
-**Problem**
-
-Fraudulent content is multi-modal — images with embedded text, PDFs with forged metadata, layered deception that defeats single-model approaches.
-
-</td>
-<td width="50%">
-
-**Solution**
-
-Layered detection: OCR extracts content, NLP classifies intent, dual ML models cross-validate. Ensemble consensus drives the final verdict.
-
-</td>
-</tr>
-</table>
-
-```
-INPUT ──► OCR ENGINE ──► NLP CLASSIFIER ──┬──► MODEL A ──► ENSEMBLE
-                                          └──► MODEL B ──► VERDICT (90%+ acc)
-```
-
-| Component | Approach | Performance |
-|-----------|----------|-------------|
-| Vision pipeline | OCR → feature extraction | Multi-modal |
-| Classification | Dual ML ensemble | **90%+ accuracy** |
-| Architecture | Layered defense | Fault-tolerant |
-
-<br/><br/>
-
----
-
-### ⬡ &nbsp;`SMART IOT MONITOR` &mdash; Edge-to-Cloud Sensor Pipeline
-
-<table>
-<tr>
-<td width="50%">
-
-**Problem**
-
-Sensor data is continuous, noisy, high-frequency. Naive polling introduces latency. Unindexed time-series storage makes range queries unusable at scale.
-
-</td>
-<td width="50%">
-
-**Solution**
-
-ESP32 firmware pushes event-driven payloads. MongoDB time-series collections with compound indexes. Dashboard receives updates in under 500ms.
-
-</td>
-</tr>
-</table>
-
-```
-ESP32 SENSOR ──► INGESTION API ──► MONGO TIME-SERIES INDEX
-                                          │
-                                          ▼
-                               WEBSOCKET PUSH  ◄──── < 500ms
-```
-
-| Layer | Technology | SLA |
-|-------|------------|-----|
-| Edge device | ESP32 firmware | Hardware-level |
-| Ingestion | REST / MQTT endpoint | Async |
-| Storage | MongoDB time-series | Optimized range queries |
-| Delivery | Event-driven push | **< 500ms** |
-
-<br/><br/>
-
----
-
-### ⬡ &nbsp;`NEURAL HOLOGRAPHY` &mdash; AI 3D Reconstruction System
-
-<table>
-<tr>
-<td width="50%">
-
-**Problem**
-
-3D reconstruction from 2D input is compute-heavy and model-sensitive. Benchmarking across methods is essential — wrong architecture means unusable latency.
-
-</td>
-<td width="50%">
-
-**Solution**
-
-OpenCV preprocessing normalizes input. NeRF handles volumetric reconstruction. Gesture recognition provides natural interaction without hardware controllers.
-
-</td>
-</tr>
-</table>
-
-| Stage | Method |
-|-------|--------|
-| Capture & preprocess | OpenCV pipeline |
-| 3D reconstruction | NeRF-based volumetric modeling |
-| Benchmarking | Multi-model performance comparison |
-| Interaction layer | Gesture recognition interface |
+`Bondra`
 
 <br/>
 
 ---
 
+## ⬡ SCAM SENSE AI — Multi-Modal Fraud Detection System
+
+<table>
+<tr>
+<td width="50%">
+
+### Detection Problem
+
+Fraud systems fail against layered deception.
+Images, OCR text, forged metadata, and malicious URLs require multi-modal analysis.
+Single-model approaches produce unreliable verdicts.
+
+</td>
+<td width="50%">
+
+### Detection Architecture
+
+OCR extraction pipelines feed NLP intent classification.
+Dual-model inference validates classification confidence.
+Rule-based fallback systems maintain resilience under degraded inference conditions.
+
+</td>
+</tr>
+</table>
+
+```text
+INPUT
+   │
+   ├──► OCR EXTRACTION
+   │
+   ├──► NLP CLASSIFICATION
+   │
+   ├──► MODEL A
+   │
+   ├──► MODEL B
+   │
+   └──► ENSEMBLE CONSENSUS ENGINE
+                    │
+                    ▼
+             RISK VERDICT
+```
+
+| Component       | Implementation             |
+| --------------- | -------------------------- |
+| OCR Layer       | Tesseract OCR              |
+| Classification  | NLP Intent Analysis        |
+| Inference       | Dual ML Ensemble           |
+| Security Layer  | Rule-based fallback engine |
+| Threat Handling | Dangerous link suppression |
+| Performance     | 90%+ detection accuracy    |
+
+### Repository
+
+`Scam_Sense`
+
 <br/>
 
-## ❯ Stack
+---
+
+## ⬡ SMART CAMPUS IOT MONITOR — Edge-to-Cloud Sensor Pipeline
+
+<table>
+<tr>
+<td width="50%">
+
+### Infrastructure Problem
+
+Continuous high-frequency telemetry creates noisy ingestion streams.
+Polling introduces unnecessary latency.
+Unindexed time-series queries become unusable at scale.
+
+</td>
+<td width="50%">
+
+### Infrastructure Solution
+
+ESP32 clusters push event-driven payloads.
+MongoDB time-series indexing optimizes retrieval.
+Socket.IO streams real-time updates with sub-second delivery.
+
+</td>
+</tr>
+</table>
+
+```text
+ESP32 SENSOR CLUSTER
+        │
+        ▼
+INGESTION API
+        │
+        ▼
+MONGODB TIME-SERIES INDEX
+        │
+        ├──► ALERT ENGINE
+        │
+        └──► WEBSOCKET DELIVERY
+                     │
+                     ▼
+                LIVE DASHBOARD
+```
+
+| Layer         | Technology                  |
+| ------------- | --------------------------- |
+| Edge Hardware | ESP32 + Sensor Array        |
+| Streaming     | REST / MQTT                 |
+| Storage       | MongoDB Time-Series         |
+| Messaging     | Socket.IO                   |
+| Alerts        | Firebase Push Notifications |
+| Latency       | < 500ms delivery            |
+
+### Repository
+
+`Smart-Campus-IoT-Monitor`
+
+<br/>
+
+---
+
+## ⬡ NEURAL HOLOGRAPHY ENGINE — AI 3D Reconstruction Framework
+
+<table>
+<tr>
+<td width="50%">
+
+### Research Constraint
+
+3D reconstruction from 2D sources is computationally expensive.
+Model sensitivity introduces inconsistent rendering quality.
+Hardware dependency limits accessibility.
+
+</td>
+<td width="50%">
+
+### Reconstruction Pipeline
+
+OpenCV preprocessing normalizes inputs.
+NeRF-based volumetric reconstruction generates spatial depth.
+Gesture-driven interaction removes hardware-controller dependency.
+
+</td>
+</tr>
+</table>
+
+```text
+2D INPUT
+   │
+   ▼
+OPENCV PREPROCESSING
+   │
+   ▼
+NERF RECONSTRUCTION
+   │
+   ▼
+VOLUMETRIC DEPTH MODEL
+   │
+   ▼
+GESTURE INTERACTION LAYER
+```
+
+| Reconstruction Stage | Method                       |
+| -------------------- | ---------------------------- |
+| Image Processing     | OpenCV Pipeline              |
+| Volumetric Modeling  | NeRF Architecture            |
+| Benchmarking         | Multi-model evaluation       |
+| Interaction Layer    | Gesture Recognition          |
+| Research Goal        | Hardware-agnostic holography |
+
+### Repository
+
+`Neural-Holography-Engine`
+
+<br/>
+
+---
+
+## ⬡ MATH SUPERNOVA LAB — Interactive Computational Mathematics Platform
+
+```text
+SYMBOLIC COMPUTATION
+        │
+        ├──► LATEX RENDERING
+        ├──► LIVE GRAPH VISUALIZATION
+        ├──► ALGEBRAIC SOLVERS
+        └──► INTERACTIVE MATHEMATICAL UI
+```
+
+### Focus
+
+* Symbolic mathematics
+* Interactive visualization
+* Educational computation systems
+* Real-time graph rendering
+
+### Repository
+
+`maths-supernova`
+
+<br/>
+
+---
+
+## ⬡ CHEMICAL PROCESS LIBRARY — OpenModelica Simulation Framework
+
+```text
+MODULAR REACTOR COMPONENTS
+        │
+        ├──► REPLACEABLE KINETICS
+        ├──► PROCESS SIMULATION
+        ├──► ENGINEERING VALIDATION
+        └──► OPENMODELICA INTEGRATION
+```
+
+### Focus
+
+* Chemical systems simulation
+* Reusable process engineering components
+* OpenModelica architecture
+* Engineering computation
+
+### Repository
+
+`ChemicalProcessLibrary-OpenModelica`
+
+<br/>
+
+---
+
+# ❯ ENGINEERING STACK
+
+<br/>
 
 <div align="center">
 
-**Languages & Runtimes**
+## CORE LANGUAGES
 
-![Python](https://img.shields.io/badge/Python-060A07?style=for-the-badge&logo=python&logoColor=B8CFAA)
-![TypeScript](https://img.shields.io/badge/TypeScript-0C1610?style=for-the-badge&logo=typescript&logoColor=B8CFAA)
-![Node.js](https://img.shields.io/badge/Node.js-122318?style=for-the-badge&logo=node.js&logoColor=B8CFAA)
-![C++](https://img.shields.io/badge/C++-1A3325?style=for-the-badge&logo=cplusplus&logoColor=B8CFAA)
+![Python](https://img.shields.io/badge/Python-121510?style=for-the-badge\&logo=python\&logoColor=B59A6A)
+![TypeScript](https://img.shields.io/badge/TypeScript-1B211B?style=for-the-badge\&logo=typescript\&logoColor=B59A6A)
+![C++](https://img.shields.io/badge/C++-242C24?style=for-the-badge\&logo=cplusplus\&logoColor=B59A6A)
+![JavaScript](https://img.shields.io/badge/JavaScript-313B30?style=for-the-badge\&logo=javascript\&logoColor=B59A6A)
 
-**Data & Messaging**
+<br/>
 
-![Redis](https://img.shields.io/badge/Redis-060A07?style=for-the-badge&logo=redis&logoColor=B8CFAA)
-![MongoDB](https://img.shields.io/badge/MongoDB-0C1610?style=for-the-badge&logo=mongodb&logoColor=B8CFAA)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-122318?style=for-the-badge&logo=postgresql&logoColor=B8CFAA)
-![Kafka](https://img.shields.io/badge/Kafka-1A3325?style=for-the-badge&logo=apachekafka&logoColor=B8CFAA)
+## REAL-TIME INFRASTRUCTURE
 
-**Infrastructure & Cloud**
+![Node.js](https://img.shields.io/badge/Node.js-121510?style=for-the-badge\&logo=node.js\&logoColor=B59A6A)
+![Redis](https://img.shields.io/badge/Redis-1B211B?style=for-the-badge\&logo=redis\&logoColor=B59A6A)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-242C24?style=for-the-badge\&logo=socketdotio\&logoColor=B59A6A)
+![Kafka](https://img.shields.io/badge/Kafka-313B30?style=for-the-badge\&logo=apachekafka\&logoColor=B59A6A)
 
-![Docker](https://img.shields.io/badge/Docker-060A07?style=for-the-badge&logo=docker&logoColor=B8CFAA)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0C1610?style=for-the-badge&logo=kubernetes&logoColor=B8CFAA)
-![AWS](https://img.shields.io/badge/AWS-122318?style=for-the-badge&logo=amazon-aws&logoColor=B8CFAA)
-![GCP](https://img.shields.io/badge/GCP-1A3325?style=for-the-badge&logo=google-cloud&logoColor=B8CFAA)
+<br/>
 
-**AI / ML**
+## DATA & STORAGE
 
-![PyTorch](https://img.shields.io/badge/PyTorch-060A07?style=for-the-badge&logo=pytorch&logoColor=B8CFAA)
-![OpenCV](https://img.shields.io/badge/OpenCV-0C1610?style=for-the-badge&logo=opencv&logoColor=B8CFAA)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-122318?style=for-the-badge&logo=scikit-learn&logoColor=B8CFAA)
+![MongoDB](https://img.shields.io/badge/MongoDB-121510?style=for-the-badge\&logo=mongodb\&logoColor=B59A6A)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1B211B?style=for-the-badge\&logo=postgresql\&logoColor=B59A6A)
+![AWS S3](https://img.shields.io/badge/AWS_S3-242C24?style=for-the-badge\&logo=amazonaws\&logoColor=B59A6A)
+
+<br/>
+
+## INFRASTRUCTURE & CLOUD
+
+![Docker](https://img.shields.io/badge/Docker-121510?style=for-the-badge\&logo=docker\&logoColor=B59A6A)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1B211B?style=for-the-badge\&logo=kubernetes\&logoColor=B59A6A)
+![AWS](https://img.shields.io/badge/AWS-242C24?style=for-the-badge\&logo=amazonaws\&logoColor=B59A6A)
+![GCP](https://img.shields.io/badge/GCP-313B30?style=for-the-badge\&logo=googlecloud\&logoColor=B59A6A)
+
+<br/>
+
+## AI / INFERENCE
+
+![PyTorch](https://img.shields.io/badge/PyTorch-121510?style=for-the-badge\&logo=pytorch\&logoColor=B59A6A)
+![OpenCV](https://img.shields.io/badge/OpenCV-1B211B?style=for-the-badge\&logo=opencv\&logoColor=B59A6A)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-242C24?style=for-the-badge\&logo=scikitlearn\&logoColor=B59A6A)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-313B30?style=for-the-badge\&logo=tensorflow\&logoColor=B59A6A)
 
 </div>
 
@@ -238,49 +418,64 @@ OpenCV preprocessing normalizes input. NeRF handles volumetric reconstruction. G
 
 ---
 
-<br/>
+# ❯ SYSTEM PRIORITIES
 
-## ❯ Focus Areas
-
-<br/>
-
-```
-┌───────────────────────────┬──────────────────────────────────────────────────┐
-│  DISTRIBUTED SYSTEMS      │  Consensus, partitioning, fault tolerance,        │
-│                           │  CAP tradeoffs, eventual consistency              │
-├───────────────────────────┼──────────────────────────────────────────────────┤
-│  REAL-TIME SYNC           │  Sub-second pipelines, WebSocket architecture,    │
-│                           │  pub/sub patterns, event-driven design            │
-├───────────────────────────┼──────────────────────────────────────────────────┤
-│  AI INFERENCE             │  Model serving, multi-modal pipelines,            │
-│                           │  latency-aware deployment, ensemble methods       │
-├───────────────────────────┼──────────────────────────────────────────────────┤
-│  PERFORMANCE ENGINEERING  │  Profiling, benchmarking, algorithmic complexity, │
-│                           │  load modeling, capacity planning                 │
-└───────────────────────────┴──────────────────────────────────────────────────┘
+```text
+┌──────────────────────────────┬───────────────────────────────────────────────┐
+│ DISTRIBUTED SYSTEMS          │ Consensus • Fault Tolerance • Scaling         │
+├──────────────────────────────┼───────────────────────────────────────────────┤
+│ REAL-TIME PIPELINES          │ WebSockets • Event Streams • Sync Systems     │
+├──────────────────────────────┼───────────────────────────────────────────────┤
+│ AI INFRASTRUCTURE            │ Inference • Multi-modal Pipelines • Serving   │
+├──────────────────────────────┼───────────────────────────────────────────────┤
+│ PERFORMANCE ENGINEERING      │ Profiling • Benchmarking • Capacity Planning  │
+├──────────────────────────────┼───────────────────────────────────────────────┤
+│ SYSTEM RESILIENCE            │ Recovery • Isolation • Degradation Handling   │
+└──────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
 <br/>
 
 ---
 
+# ❯ OPEN SOURCE & RESEARCH
+
+### Active Engineering Areas
+
+* Distributed Infrastructure Research
+* Real-Time Synchronization Systems
+* Neural Holography Research
+* AI-powered Threat Detection
+* OpenModelica Simulation Libraries
+* Performance Engineering
+* Event-Driven System Design
+
+### Open Source Contributions
+
+* SHAP ecosystem contributions
+* Open-source simulation tooling
+* Systems engineering repositories
+* Infrastructure experimentation
+
 <br/>
 
-## ❯ GitHub Activity
+---
 
-<br/>
+# ❯ GITHUB METRICS
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=gouravgangwardev&show_icons=true&theme=transparent&hide_border=true&title_color=B8CFAA&text_color=7A9E72&icon_color=4A7C59&bg_color=060A07&border_radius=6" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=gouravgangwardev&show_icons=true&theme=transparent&hide_border=true&title_color=B59A6A&text_color=8E7B58&icon_color=4F5A43&bg_color=070908&border_radius=8" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouravgangwardev&layout=compact&theme=transparent&hide_border=true&title_color=B8CFAA&text_color=7A9E72&bg_color=060A07&border_radius=6&langs_count=6" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouravgangwardev&layout=compact&theme=transparent&hide_border=true&title_color=B59A6A&text_color=8E7B58&bg_color=070908&border_radius=8&langs_count=8" height="170"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gouravgangwardev&theme=transparent&hide_border=true&stroke=1A3325&ring=4A7C59&fire=B8CFAA&currStreakLabel=B8CFAA&sideLabels=7A9E72&dates=4A6A52&currStreakNum=B8CFAA&sideNums=B8CFAA&background=060A07" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gouravgangwardev&theme=transparent&hide_border=true&stroke=3A4332&ring=B59A6A&fire=B59A6A&currStreakLabel=B59A6A&sideLabels=8E7B58&dates=4F5A43&currStreakNum=D7C29A&sideNums=D7C29A&background=070908" height="170"/>
 
 </div>
 
@@ -288,19 +483,17 @@ OpenCV preprocessing normalizes input. NeRF handles volumetric reconstruction. G
 
 ---
 
-<br/>
-
-## ❯ Principles
-
-<br/>
+# ❯ PRINCIPLES
 
 <div align="center">
 
-> **Latency is not a feature. It is a constraint. Design for it first.**
+> Latency is not a feature. It is a systems constraint.
 
-> **Reliability is not a property of components. It is a property of systems.**
+> Reliability is a property of architecture, not components.
 
-> **Execution over everything.**
+> Scale exposes weak engineering.
+
+> Execution over abstraction.
 
 </div>
 
@@ -308,10 +501,9 @@ OpenCV preprocessing normalizes input. NeRF handles volumetric reconstruction. G
 
 ---
 
-<br/>
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:243D2F,35:1A3325,65:0C1610,100:060A07&height=140&section=footer&text=flow%20%C2%B7%20depth%20%C2%B7%20systems&fontSize=13&fontColor=3D6B4F&fontAlignY=70" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F5A43,30:3A4332,65:1E241C,100:070908&height=130&section=footer&text=systems%20•%20scale%20•%20execution&fontSize=13&fontColor=B59A6A&fontAlignY=72" width="100%"/>
 
 </div>
+```
