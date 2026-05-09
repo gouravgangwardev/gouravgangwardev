@@ -1,4 +1,3 @@
-markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:070908,20:121510,45:1E241C,70:3A4332,100:4F5A43&height=290&section=header&text=GOURAV%20GANGWAR&fontSize=56&fontColor=B59A6A&animation=fadeIn&fontAlignY=42&desc=Distributed%20Systems%20•%20AI%20Infrastructure%20•%20Real-Time%20Architectures&descAlignY=61&descSize=16&fontAlign=50&descAlign=50" width="100%"/>
@@ -507,3 +506,67 @@ MODULAR REACTOR COMPONENTS
 
 </div>
 ```
+---
+
+<br/>
+
+---
+
+# ❯ REPOSITORY MATRIX
+
+<div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gouravgangwardev&theme=github_dark"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/gouravgangwardev?tab=repositories">
+<img src="https://custom-icon-badges.demolab.com/badge/DYNAMIC%20REPOSITORY%20INDEX-121510?style=for-the-badge&logo=repo&logoColor=E2D1A8&labelColor=050605"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gouravgangwardev&bg_color=050605&color=B59A6A&line=4F5A43&point=E2D1A8&area=true&hide_border=true" width="100%"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gouravgangwardev&theme=github_dark" height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gouravgangwardev&theme=github_dark" height="180"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gouravgangwardev&theme=github_dark" height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gouravgangwardev&theme=github_dark&utcOffset=5.5" height="180"/>
+
+</div>
+
+<br/>
+
+---
+
+# ❯ LIVE REPOSITORY INDEX
+
+<div align="center">
+
+<img src="https://github-widgetbox.vercel.app/api/profile?username=gouravgangwardev&data=repositories,stars,commits&theme=dark"/>
+
+</div>
+---
